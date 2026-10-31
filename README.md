@@ -41,7 +41,7 @@ Cancellations hurt revenue, room availability and demand planning. This project 
 ### 4. Management Insights and Recommendations
 
 
-![Management Insights](screenshots/IMG-20261031-WA0032%281%29.jpg)
+![Management Insights](screenshots/IMG-20261031-WA0032.jpg)
 
 
 
