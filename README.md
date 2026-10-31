@@ -1,7 +1,22 @@
  # Hotel Booking Cancellation Analysis
+### 2. Cancellation Drivers
 
-An interactive Power BI dashboard analysing 36,285 hotel bookings (2015-2018) to find what drives cancellations and how hotels can reduce them.
 
+![Cancellation Drivers](screenshots/IMG-20261031-WA0018%281%29.jpg)
+
+
+
+### 3. Guest and Stay Analysis
+
+
+![Guest and Stay Analysis](screenshots/IMG-20261031-WA0017.jpg)
+
+
+
+### 4. Management Insights and Recommendations
+
+
+![Management Insights](screenshots/IMG-20261031-WA0016%281%29.jpg)
 **Tools:** Power BI, Power Query (data cleaning), DAX (measures)
 
 ## Business Problem
