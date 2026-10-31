@@ -1,43 +1,60 @@
-# hotel-booking-cancellation-analysis
-Hotel Booking Cancellation Analysis using Data Analytics
+ # Hotel Booking Cancellation Analysis
 
-Hotel Booking Cancellation Analysis
+An interactive Power BI dashboard analysing 36,285 hotel bookings (2015-2018) to find what drives cancellations and how hotels can reduce them.
 
-Project Overview
+**Tools:** Power BI, Power Query (data cleaning), DAX (measures)
 
-This project focuses on analysing hotel booking data to understand booking cancellation patterns and identify factors that may influence cancellations.
+## Business Problem
+Cancellations hurt revenue, room availability and demand planning. This project identifies which booking factors are linked to cancellations and recommends ways to reduce them.
 
-The main objective is to understand customer booking behaviour and provide useful business recommendations to help hotels reduce cancellations.
+## Key Findings
+- **32.8% of bookings were cancelled**, about 1 in 3.
+- **Lead time is the strongest driver.** Cancellation rises from 8.9% (0-7 days) to 73.9% (above 180 days).
+- **Online bookings cancel most (36.5%)**, while Corporate bookings cancel least (10.9%).
+- **Guests with no special requests cancel at 43.2%**, falling to 14.6% with two requests.
+- **New guests cancel at 33.6%** versus only 1.7% for repeated guests.
+- About **4.30M of 11.35M** estimated booking value (37.9%) sits in cancelled bookings.
 
-Business Problem
+## Dashboard Screenshots
 
-Hotel booking cancellations can affect hotel revenue, room availability and business planning.
+### 1. Executive Overview
 
-This analysis explores booking patterns to understand when cancellations are more likely to happen.
 
-Key Findings
+![Executive Overview](screenshots/IMG-20261031-WA0014%281%29.jpg)
 
-- Bookings made approximately 3 months before arrival showed a cancellation rate of around 70% in the analysis.
-- Bookings made around 3–7 days before arrival showed a cancellation rate of around 10%.
-- Lead time (the number of days between booking and arrival) appeared to be an important indicator of cancellation risk.
 
-Note: These are approximate findings from this project, not proof that booking lead time causes cancellations.
 
-Business Recommendations
+### 2. Cancellation Drivers
 
-- Identify bookings with higher cancellation risk.
-- Send booking reminders and confirmation messages.
-- Improve communication with customers before arrival.
-- Use targeted customer engagement strategies to reduce potential cancellations.
 
-Project Learning
+![Cancellation Drivers](screenshots/IMG-20261031-WA0016%281%29.jpg)
 
-Through this project, I developed a better understanding of data analysis, identifying patterns in data, interpreting findings and converting insights into business recommendations.
 
-Conclusion
 
-This project demonstrates how data analysis can help hotels understand customer booking behaviour and make more informed business decisions.
+### 3. Guest and Stay Analysis
 
-Author
 
-Tawseef Ahmad Ganaie
+![Guest and Stay Analysis](screenshots/IMG-20261031-WA0017.jpg)
+
+
+
+### 4. Management Insights and Recommendations
+
+
+![Management Insights](screenshots/IMG-20261031-WA0018%281%29.jpg)
+
+
+
+## Recommendations
+1. Require tiered deposits for bookings made 91+ days ahead.
+2. Offer stricter or non-refundable rates on the Online channel.
+3. Prompt guests for meal and room preferences at booking.
+4. Grow the loyalty programme to convert new guests into repeat guests.
+5. Send confirmation and reminder messages for long-lead reservations.
+6. Use lead-time-based cancellation rates in overbooking and demand forecasts.
+
+## Limitations
+- The data is historical (2015-2018) and may not reflect current behaviour.
+- Booking value is an estimate (average room price x total nights).
+- This is a descriptive study, so it shows associations, not causation.
+- 37 invalid reservation dates were handled in Power Query.
