@@ -96,14 +96,19 @@ The analysis identified a strong relationship between booking lead time and canc
 
 ## 📈 Power BI Dashboard
 
-The project dashboard contains four analytical pages:
+## 📈 Dashboard Screenshots
 
-1. Executive Overview
-2. Cancellation Drivers
-3. Guest & Stay Analysis
-4. Management Insights
+### 1. Executive Overview
+![Executive Overview](screenshots/IMG-20261031-WA0014(1).jpg)
 
-<!-- Add dashboard screenshots here after uploading them to GitHub. -->
+### 2. Cancellation Drivers
+![Cancellation Drivers](screenshots/IMG-20261031-WA0017.jpg)
+
+### 3. Guest and Stay Analysis
+![Guest and Stay Analysis](screenshots/IMG-20261031-WA0018(1).jpg)
+
+### 4. Management Insights
+![Management Insights](screenshots/IMG-20261031-WA0032.jpg)
 
 ---
 
