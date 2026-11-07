@@ -1,60 +1,157 @@
- # Hotel Booking Cancellation Analysis
+# 🏨 Hotel Booking Cancellation Analysis
 
-An interactive Power BI dashboard analysing 36,285 hotel bookings (2015-2018) to find what drives cancellations and how hotels can reduce them.
+### Business Analytics | Power BI | Data Analysis
 
-**Tools:** Power BI, Power Query (data cleaning), DAX (measures)
+An end-to-end business analytics project focused on analysing hotel booking cancellations, identifying cancellation patterns, and developing data-driven recommendations to support better hotel booking management.
 
-## Business Problem
-Cancellations hurt revenue, room availability and demand planning. This project identifies which booking factors are linked to cancellations and recommends ways to reduce them.
+---
 
-## Key Findings
-- **32.8% of bookings were cancelled**, about 1 in 3.
-- **Lead time is the strongest driver.** Cancellation rises from 8.9% (0-7 days) to 73.9% (above 180 days).
-- **Online bookings cancel most (36.5%)**, while Corporate bookings cancel least (10.9%).
-- **Guests with no special requests cancel at 43.2%**, falling to 14.6% with two requests.
-- **New guests cancel at 33.6%** versus only 1.7% for repeated guests.
-- About **4.30M of 11.35M** estimated booking value (37.9%) sits in cancelled bookings.
+## 📌 Project Overview
 
-## Dashboard Screenshots
+Hotel booking cancellations can affect room availability, occupancy planning, and revenue management.
 
-### 1. Executive Overview
+The objective of this project was to analyse historical hotel booking data, identify important cancellation patterns, and present actionable insights through an interactive Power BI dashboard.
 
+This project was completed as a team capstone project.
 
-![Executive Overview](screenshots/IMG-20261031-WA0014%281%29.jpg)
+## 🎯 Business Problem
 
+Hotels face challenges when customers cancel reservations, particularly when bookings are made well in advance.
 
+This project explores:
 
-### 2. Cancellation Drivers
+- What percentage of hotel bookings are cancelled?
+- How does booking lead time relate to cancellation rates?
+- Which booking and customer patterns are associated with cancellations?
+- What actions can hotel management consider to manage cancellation risk?
 
+---
 
-![Cancellation Drivers](screenshots/IMG-20261031-WA0018%281%29.jpg)
+## 📊 Dataset Overview
 
+| Description | Details |
+|---|---|
+| Total Records | 36,285 bookings |
+| Total Variables | 17 |
+| Data Period | October 2015 – December 2018 |
+| Target Variable | IsCanceled |
+| Analysis Type | Descriptive and Diagnostic |
 
+---
 
-### 3. Guest and Stay Analysis
+## 🛠️ Tools & Technologies
 
+- Microsoft Excel
+- Power BI
+- Power Query
+- DAX
+- Data Cleaning
+- Data Transformation
+- Exploratory Data Analysis (EDA)
+- Business Analytics
 
-![Guest and Stay Analysis](screenshots/IMG-20261031-WA0017.jpg)
+---
 
+## 🔄 Project Workflow
 
+1. **Business Understanding** – Defined the business problem and project objectives.
+2. **Data Understanding** – Examined the dataset, variables, and booking information.
+3. **Data Cleaning** – Processed dates and prepared the dataset using Power Query.
+4. **Data Transformation** – Created calculated columns and DAX measures.
+5. **Exploratory Analysis** – Identified booking and cancellation patterns.
+6. **Dashboard Development** – Built a four-page interactive Power BI dashboard.
+7. **Business Recommendations** – Developed recommendations based on analytical findings.
 
-### 4. Management Insights and Recommendations
+---
 
+## 🔍 Key Findings
 
-![Management Insights](screenshots/IMG-20261031-WA0032.jpg)
+### 1. Overall Cancellation Performance
 
+| Metric | Result |
+|---|---:|
+| Total Bookings | 36,285 |
+| Cancelled Bookings | 11,889 |
+| Non-Cancelled Bookings | 24,396 |
+| Overall Cancellation Rate | 32.8% |
 
+### 2. Booking Lead Time Analysis
 
-## Recommendations
-1. Require tiered deposits for bookings made 91+ days ahead.
-2. Offer stricter or non-refundable rates on the Online channel.
-3. Prompt guests for meal and room preferences at booking.
-4. Grow the loyalty programme to convert new guests into repeat guests.
-5. Send confirmation and reminder messages for long-lead reservations.
-6. Use lead-time-based cancellation rates in overbooking and demand forecasts.
+The analysis identified a strong relationship between booking lead time and cancellation rates.
 
-## Limitations
-- The data is historical (2015-2018) and may not reflect current behaviour.
-- Booking value is an estimate (average room price x total nights).
-- This is a descriptive study, so it shows associations, not causation.
-- 37 invalid reservation dates were handled in Power Query.
+| Booking Lead Time | Cancellation Rate |
+|---|---:|
+| 0–7 days | 8.9% |
+| 8–30 days | 18.9% |
+| 31–60 days | 23.5% |
+| 61–90 days | 27.8% |
+| 91–180 days | 44.9% |
+| Above 180 days | 73.9% |
+
+**Key Insight:** Bookings made more than 180 days before arrival had a substantially higher cancellation rate than bookings made within seven days of arrival.
+
+*Note: These findings show an association, not proof that longer booking lead time causes cancellations.*
+
+---
+
+## 📈 Power BI Dashboard
+
+The project dashboard contains four analytical pages:
+
+1. Executive Overview
+2. Cancellation Drivers
+3. Guest & Stay Analysis
+4. Management Insights
+
+<!-- Add dashboard screenshots here after uploading them to GitHub. -->
+
+---
+
+## 💡 Business Recommendations
+
+Based on the analysis, the following recommendations were proposed:
+
+- Consider tiered deposit policies for bookings with longer lead times.
+- Send timely booking reminders to customers.
+- Prioritise customer outreach for bookings with higher cancellation patterns.
+- Use booking lead-time patterns when planning room availability.
+- Monitor cancellation trends regularly to support better booking management.
+
+---
+
+## ⚠️ Project Limitations
+
+- The dataset covers historical bookings from October 2015 to December 2018.
+- The analysis is descriptive and diagnostic, not predictive.
+- Observed relationships do not establish causation.
+- Estimated booking value should not be interpreted as actual revenue or confirmed financial loss.
+- The recommendations have not been tested through implementation.
+
+---
+
+## 📚 Key Learnings
+
+Through this project, I developed practical experience in:
+
+- Data cleaning and transformation using Power Query.
+- Creating calculated columns and DAX measures.
+- Analysing business data and identifying patterns.
+- Building interactive Power BI dashboards.
+- Presenting analytical findings.
+- Converting data insights into business recommendations.
+
+---
+
+## 👨‍💻 Author
+
+**Tawseef Ahmad Ganaie**
+
+Aspiring Data Analyst | Business Analytics | Power BI
+
+[GitHub Profile](https://github.com/tawseefah)
+
+---
+
+**Project Type:** Team Capstone Project – EDGE Programme
+
+*This project was completed as part of a team capstone. The analysis and findings are based on the project dataset and dashboard.*
