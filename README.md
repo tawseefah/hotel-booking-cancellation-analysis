@@ -95,7 +95,6 @@ The analysis identified a strong relationship between booking lead time and canc
 ---
 
 ## 📈 Power BI Dashboard
-
 ## 📈 Dashboard Screenshots
 
 ### 1. Executive Overview
@@ -109,6 +108,7 @@ The analysis identified a strong relationship between booking lead time and canc
 
 ### 4. Management Insights
 ![Management Insights](screenshots/IMG-20261031-WA0032.jpg)
+
 
 ---
 
