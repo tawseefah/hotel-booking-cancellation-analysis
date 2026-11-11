@@ -144,6 +144,15 @@ Through this project, I developed practical experience in:
 - Building interactive Power BI dashboards.
 - Presenting analytical findings.
 - Converting data insights into business recommendations.
+- ## SQL Analysis
+
+Analysed 36,285 hotel bookings using SQL (SQLite) to understand what drives cancellations. Queries are in `hotel_queries.sql`.
+
+**Key finding:** Bookings made 90+ days in advance had a 56.4% cancellation rate, compared with 25.1% for 30-90 days and 14.1% for under 30 days.
+
+**Recommendation:** Introduce stricter deposit or cancellation policies for early bookings to reduce revenue loss.
+
+**Tools:** SQL, SQLite
 
 ---
 
@@ -157,6 +166,6 @@ Aspiring Data Analyst | Business Analytics | Power BI
 
 ---
 
-**Project Type:** Team Capstone Project – EDGE Programme
+**Project Type:** capstone Project – EDGE Programme
 
 *This project was completed as part of a team capstone. The analysis and findings are based on the project dataset and dashboard.*
