@@ -12,7 +12,7 @@ Hotel booking cancellations can affect room availability, occupancy planning, an
 
 The objective of this project was to analyse historical hotel booking data, identify important cancellation patterns, and present actionable insights through an interactive Power BI dashboard.
 
-This project was completed as a team capstone project.
+This project was completed by tawseef 
 
 ## 🎯 Business Problem
 
@@ -168,4 +168,4 @@ Aspiring Data Analyst | Business Analytics | Power BI
 
 **Project Type:** capstone Project – EDGE Programme
 
-*This project was completed as part of a team capstone. The analysis and findings are based on the project dataset and dashboard.*
+*This project was completed by me. The analysis and findings are based on the project dataset and dashboard.*
